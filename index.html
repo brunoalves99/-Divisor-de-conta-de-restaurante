@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de conta</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+
+    <main>
+        <p class="info hide">Clique em "Compartilhado", para os produtos que serão divididos entre clientes.</p>
+
+        <section class="addClient">
+            <input class="inputClient" type="text" placeholder="Nome do cliente">
+            <button class="btnClient">Adicionar cliente</button>
+        </section>
+        
+        <section class="addProduct">
+            <input class="inputProduct" type="text" placeholder="Nome do item">
+            <input class="inputProductValue" type="number" placeholder="Valor do item">
+            <button class="btnProduct">Adicionar produto</button>
+        </section>
+
+        <button class="btnDone">Pronto</button>
+
+
+        <div class="products hide">
+
+        </div>
+
+        <div class="allClients hide">
+
+        </div>
+
+        <button class="btnCalcValue hide">Calcular</button>
+
+        <div class="finalValues">
+
+        </div>
+
+        <button class="btnReset hide">Fazer outra conta</button>
+    </main>
+</body>
+</html>
